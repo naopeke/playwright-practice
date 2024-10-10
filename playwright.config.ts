@@ -23,7 +23,7 @@ export default defineConfig({
     launchOptions: {
       slowMo: 1000
     },
-    baseURL: 'https://parabank.parasoft.com/parabank/index.htm',
+    baseURL: 'https://parabank.parasoft.com/parabank/',
     trace: 'on-first-retry',
   },
 
@@ -44,5 +44,5 @@ export default defineConfig({
       use: { ...devices['Desktop Safari'] },
     },
   ],
-  testMatch: ['tests/login.test.ts']
+  testMatch: ['tests/register.test.ts']
 });
