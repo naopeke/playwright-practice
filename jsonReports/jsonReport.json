@@ -84,7 +84,7 @@
         {
           "title": "Register",
           "file": "register.test.ts",
-          "line": 7,
+          "line": 8,
           "column": 6,
           "specs": [
             {
@@ -102,12 +102,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 5642,
+                      "duration": 15825,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-10T10:00:06.530Z",
+                      "startTime": "2024-10-10T11:07:13.354Z",
                       "attachments": [
                         {
                           "name": "screenshot",
@@ -127,7 +127,7 @@
               ],
               "id": "2392ac93de9d13332a58-c256b2354b21508d9326",
               "file": "register.test.ts",
-              "line": 8,
+              "line": 9,
               "column": 9
             },
             {
@@ -145,12 +145,12 @@
                     {
                       "workerIndex": 1,
                       "status": "passed",
-                      "duration": 5837,
+                      "duration": 16941,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-10T10:00:06.531Z",
+                      "startTime": "2024-10-10T11:07:13.362Z",
                       "attachments": [
                         {
                           "name": "screenshot",
@@ -170,7 +170,7 @@
               ],
               "id": "2392ac93de9d13332a58-4f5125ed97bbbc97baa6",
               "file": "register.test.ts",
-              "line": 8,
+              "line": 9,
               "column": 9
             }
           ]
@@ -180,8 +180,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-10-10T10:00:06.207Z",
-    "duration": 7156.914000000001,
+    "startTime": "2024-10-10T11:07:12.980Z",
+    "duration": 18273.169,
     "expected": 2,
     "skipped": 0,
     "unexpected": 0,
