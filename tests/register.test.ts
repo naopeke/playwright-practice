@@ -28,7 +28,4 @@ test.describe ('Register', ()=>{
         await register.clickRegister();
         expect(page.locator('#rightPanel')).toContainText('Welcome');
     })
-
-
-
 })
