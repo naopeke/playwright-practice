@@ -22,9 +22,11 @@ test.describe ('Register', ()=>{
         await register.enterZipCode('112-0001')
         await register.enterPhone('123-456-7890');
         await register.enterSSN('000-11-1111')
-        await register.enterUsername('Janita');
+        await register.enterUsername('Janita02');
         await register.enterPassword('abc123');
         await register.enterConfirm('abc123');
+        await register.clickRegister();
+        expect(page.locator('#rightPanel')).toContainText('Welcome');
     })
 
 

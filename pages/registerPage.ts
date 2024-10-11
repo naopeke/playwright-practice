@@ -47,4 +47,8 @@ export default class RegisterPage {
     async enterConfirm(confirm: string){
         await this.page.locator("[name='repeatedPassword']").fill(confirm);
     }
+
+    async clickRegister(){
+        await this.page.getByRole('button', {name: 'Register'}).click();
+    }
 }
