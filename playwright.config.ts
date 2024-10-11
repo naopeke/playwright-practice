@@ -44,5 +44,5 @@ export default defineConfig({
     //   use: { ...devices['Desktop Safari'] },
     // },
   ],
-  testMatch: ['tests/register.test.ts']
+  testMatch: ['tests/login.test.ts']
 });
